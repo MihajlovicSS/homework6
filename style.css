@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url(img/bg_main.jpg);
+    background-repeat: repeat;
+    padding: 100px 200px;
+}
+.item{
+    display: inline-block;
+    border: 1px solid red;
+    width: 400px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+}
+.item:nth-child(3n){
+    margin-right: 0;
+}
